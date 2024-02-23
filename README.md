@@ -2,8 +2,8 @@
 convert stanza based config to set-delete
 
 
-cat <file> | to_set_delete.py
+cat _file_ | to_set_delete.py
 
 or
 
-to_set_delete.py <file>
+to_set_delete.py _file_
