@@ -112,7 +112,7 @@ def create_set_delete_line(collected_lines):
         line = ""
         # for each component, add it to the line and keep track of any changes to the actions
         for component in components:
-            if component[1] is 'delete':
+            if component[1] == 'delete':
                 action = 'delete'
 
             line += " " + component[2].strip()
